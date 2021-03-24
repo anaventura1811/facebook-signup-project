@@ -386,3 +386,130 @@ li {
   min-width: 300px;
   max-width: 400px;
 }
+
+
+#hidden-copyright {
+  font-size: 11px;
+  display: none;
+  color: #737373;
+  font-style: normal;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  margin: 0 auto;
+}
+
+#footer-language-links-hidden {
+  display: none;
+}
+
+#facebook-login-two {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .right-content {
+    max-width: 350px;
+    padding-right: 20px;
+  }
+  #field-gender {
+    flex-basis: 30%;
+  }
+
+  #field-gender label {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #subcontainer-form {
+    display: none;
+  }
+
+  .left-content {
+    display: none;
+  }
+  .right-content #firstname , .right-content #lastname , .right-content #birthdate {
+    display: none;
+  }
+
+  .right-content #label-birthdate , #field-gender , #label-gender , #question-icon {
+    display: none;
+  }
+
+  .right-content h1 , .right-content h3  , #content-curve , #terms-conditions , #create-pg{
+    display: none;
+  }
+
+  .main-content {
+    background: linear-gradient(to bottom, white, white);
+  }
+
+  .form-group-column #celOuEmail {
+    margin-bottom: 0;
+  }
+
+  #copyright-container {
+    align-content: center;
+  }
+
+  #copyright {
+    display: none;
+  }
+
+  #hidden-copyright {
+    display: flex;
+    font-size: 11px;
+    margin-left: 40%;
+    padding-top: 5%;
+  }
+
+  #facebook-register {
+    display: none;
+  }
+
+  #facebook-login-two {
+    background-color: #3578e5;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-top: 2%;
+    width: 100%;
+    border: 0.3px solid;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-left: 40%;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+  }
+
+  #footer-links-subcontainer {
+    display: none;
+  }
+
+  #footer-language-links {
+    display: none;
+  }
+
+  #footer-language-links-hidden {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+  #col-one {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #col-two {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
