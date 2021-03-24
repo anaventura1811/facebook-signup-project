@@ -406,6 +406,14 @@ li {
   display: none;
 }
 
+#celOuEmailHidden {
+  display: none;
+}
+
+#senhaHidden {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .right-content {
     max-width: 350px;
