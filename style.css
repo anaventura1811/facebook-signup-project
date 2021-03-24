@@ -378,3 +378,11 @@ li {
   margin: 0 auto;
   width: 980px;
 }
+
+#fix-content-r-side {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  min-width: 300px;
+  max-width: 400px;
+}
