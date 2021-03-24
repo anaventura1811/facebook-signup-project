@@ -452,8 +452,17 @@ li {
     background: linear-gradient(to bottom, white, white);
   }
 
-  .form-group-column #celOuEmail {
+  #celOuEmail , #senha {
+    display: none;
+  }
+
+  .form-group-column #celOuEmailHidden  {
     margin-bottom: 0;
+    display: flex;
+  }
+
+  .form-group-column #senhaHidden {
+    display: flex;
   }
 
   #copyright-container {
