@@ -55,6 +55,8 @@
         <div class="form-group-row">
           <input type="text" name="firstname" placeholder="Nome" id="firstname" required>
           <input type="text" name="lastname" placeholder="Sobrenome" id="lastname" required>
+          <input type="text" name="phone_email" placeholder="Celular ou email" id="celOuEmailHidden" required>
+          <input type="password" name="password" placeholder="Senha" id="senhaHidden" required>
         </div>
         <div class="form-group-column">
           <input type="text" name="phone_email" placeholder="Celular ou email" id="celOuEmail" required>
@@ -83,6 +85,7 @@
           <p>Ao clicar em Cadastre-se, você concorda com nossos <a class="link">Termos</a>, <a class="link">Política de Dados</a> e <a class="link">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
         </div>
         <button type="submit" id="facebook-register">Cadastre-se</button>
+        <button type="submit" id="facebook-login-two">Entrar</button>
         <div id="create-pg">
           <p> <a href="https://web.archive.org/web/20191203010259/https://www.facebook.com/pages/creation/?ref_type=registration_form" class="link">Criar uma página</a>  para uma celebridade, banda ou empresa.</p>
         </div>
@@ -106,6 +109,20 @@
         <li>हिन्दी</li>
         <li>日本語</li>
         <i class="far fa-plus-square" id="footer-icon"></i>
+      </ul>
+      <ul id="footer-language-links-hidden">
+        <div id="col-one">
+          <li id="brasil">Português (Brasil)</li>
+          <li>Español</li>
+          <li>Deutsch</li>
+          <li>العربية</li>
+       </div>
+       <div id="col-two">
+          <li>English (US)</li>
+          <li>Français (France)</li>
+          <li>Italiano</li>
+          <i class="far fa-plus-square" id="footer-icon"></i>
+       </div>
       </ul>
     </div>
     <div id="content-curve"></div>
@@ -143,6 +160,7 @@
   </div>
   <div id="copyright-container">
     <span id="copyright">Facebook &copy 2020</span>
+    <span id="hidden-copyright">Facebook, Inc</span>
   </div>
 </footer>
 <script type="text/javascript" src="script.js"></script>
